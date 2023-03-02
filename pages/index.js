@@ -11,7 +11,7 @@ import SEO from '../components/SEO';
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-      <SEO title={`${globalData.title} ${globalData.blogTitle}`} description={globalData.blogTitle} />
+      <SEO title={`${globalData.title} ${globalData.blogTitle}`} description={globalData.blogSubtitle} />
       <Header name={globalData.title} />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-6">
